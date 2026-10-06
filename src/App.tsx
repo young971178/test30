@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import {
   FileText,
   HelpCircle,
@@ -18,11 +18,8 @@ import {
   X,
   ChevronRight,
   BookOpen,
-  Calendar,
   Layers,
-  ArrowRight,
   SlidersHorizontal,
-  FolderTree,
   Edit3,
   Award,
   ChevronDown
@@ -386,7 +383,6 @@ export default function App() {
   const [submittedMessage, setSubmittedMessage] = useState<string | null>(null);
 
   // Field help tooltip popover
-  const [activeHelpField, setActiveHelpField] = useState<string | null>(null);
 
   // Calculate completeness
   const isFormComplete = useMemo(() => {
