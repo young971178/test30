@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo } from 'react';
+import { useState } from 'react';
 import {
   FileText,
   HelpCircle,
@@ -20,23 +20,17 @@ import {
   BookOpen,
   Calendar,
   Layers,
-  ArrowRight,
   SlidersHorizontal,
-  FolderTree,
   Edit3,
   Award,
-  ChevronDown,
   Upload,
   Paperclip,
   Mail,
   ShieldCheck,
-  Check,
   FileCheck,
-  Clock,
   User,
   Trash2,
   FileUp,
-  Download
 } from 'lucide-react';
 
 /* =========================================================================
